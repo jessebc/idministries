@@ -14,6 +14,8 @@
     body{margin:0;background:#f5f4f0;color:#1c2725;font-family:"Libre Franklin",-apple-system,BlinkMacSystemFont,sans-serif;-webkit-font-smoothing:antialiased}
     a{color:#2f4f4a;text-decoration:none}
     a:hover{color:#d19a4e}
+    .book-grid{display:grid;grid-template-columns:260px 1fr;gap:32px;align-items:start;justify-items:start}
+    @media (max-width:600px){.book-grid{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
@@ -41,7 +43,7 @@
         <p style="margin:0;max-width:66ch;font-size:15.5px;line-height:1.85;color:#3d4644">Teaching resources written by Terry and Melissa Bone and published by I.D. Ministries. Each one puts the ministry's teaching into a form churches, small groups and families can use on their own.</p>
       </section>
 
-      <section style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:40px;align-items:start;justify-items:start">
+      <section class="book-grid">
         <img src="images/book-great-exchange.webp" alt="The Great Exchange — book cover" style="display:block;width:100%;max-width:260px;height:auto;border:1px solid #cfd3d1;border-radius:4px">
         <div style="display:flex;flex-direction:column;gap:14px">
           <span style="font-size:11px;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;color:#d19a4e">Terry Bone</span>
@@ -55,7 +57,7 @@
 
       <div style="height:1px;background:#cfd3d1"></div>
 
-      <section style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:40px;align-items:start;justify-items:start">
+      <section class="book-grid">
         <img src="images/book-family-blessing.webp" alt="The Family Blessing Guidebook — book cover" style="display:block;width:100%;max-width:260px;height:auto;border:1px solid #cfd3d1;border-radius:4px">
         <div style="display:flex;flex-direction:column;gap:14px">
           <span style="font-size:11px;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;color:#d19a4e">Terry &amp; Melissa Bone</span>
@@ -69,7 +71,7 @@
 
       <div style="height:1px;background:#cfd3d1"></div>
 
-      <section style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:40px;align-items:start;justify-items:start">
+      <section class="book-grid">
         <img src="images/book-lukes-ladies.webp" alt="Luke's Ladies — book cover" style="display:block;width:100%;max-width:260px;height:auto;border:1px solid #cfd3d1;border-radius:4px">
         <div style="display:flex;flex-direction:column;gap:14px">
           <span style="font-size:11px;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;color:#d19a4e">Melissa Bone</span>
