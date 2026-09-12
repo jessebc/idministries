@@ -1,340 +1,107 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>I.D. Ministries — Identity &amp; Destiny</title>
-    <meta
-      name="description"
-      content="I.D. Ministries works in the developing world and at home in Canada. Love &amp; Light serves families in Bangladesh; Terry Bone ministers across Canada."
-    />
-    <link rel="icon" href="images/logo.png" />
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>I.D. Ministries — Equipping leaders to build healthy ministries</title>
+<meta name="description" content="I.D. Ministries is a registered Canadian charity equipping leaders to build healthy ministries intergenerationally, with a bias for unreached people groups.">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500&family=Spectral:wght@200;300;400&display=swap">
+  <style>
+    *{box-sizing:border-box}
+    body{margin:0;background:#f5f4f0;color:#1c2725;font-family:"Libre Franklin",-apple-system,BlinkMacSystemFont,sans-serif;-webkit-font-smoothing:antialiased}
+    a{color:#2f4f4a;text-decoration:none}
+    a:hover{color:#d19a4e}
+  </style>
+</head>
+<body>
+<div style="min-height:100vh;display:flex;flex-direction:column;background:#f5f4f0">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500&family=Spectral:wght@200;300;400&display=swap"
-    />
+  <header style="padding:40px clamp(20px,5vw,48px) 0;display:flex;flex-direction:column;align-items:center;gap:28px">
+    <a href="index.html" style="display:block"><img src="images/logo.png" alt="I.D. Ministries — Identity &amp; Destiny" width="200" height="49" style="display:block;width:200px;height:49px"></a>
+    <nav style="display:flex;flex-wrap:wrap;justify-content:center;gap:28px;font-size:11px;font-weight:500;letter-spacing:0.18em;text-transform:uppercase">
+      <a href="index.html" style="color:#2f4f4a;border-bottom:1px solid #d19a4e;padding-bottom:4px">Home</a>
+      <a href="about.html" style="color:#6a716e;padding-bottom:4px;border-bottom:1px solid transparent">About</a>
+      <a href="ministries.html" style="color:#6a716e;padding-bottom:4px;border-bottom:1px solid transparent">Programs</a>
+      <a href="books.html" style="color:#6a716e;padding-bottom:4px;border-bottom:1px solid transparent">Books</a>
+      <a href="give.html" style="color:#6a716e;padding-bottom:4px;border-bottom:1px solid transparent">Give</a>
+      <a href="contact.html" style="color:#6a716e;padding-bottom:4px;border-bottom:1px solid transparent">Contact</a>
+    </nav>
+  </header>
 
-    <style>
-      :root {
-        --green: #2f4f4a;
-        --green-dark: #1c2725;
-        --gold: #d19a4e;
-        --ink: #3d4644;
-        --muted: #6a716e;
-        --line: #cfd3d1;
-        --paper: #f5f4f0;
-        --serif: "Spectral", Georgia, serif;
-        --sans: "Libre Franklin", -apple-system, BlinkMacSystemFont, sans-serif;
-        --gutter: clamp(20px, 5vw, 48px);
-      }
+  <main style="flex:1;padding:64px clamp(20px,5vw,48px) 48px">
+    <div style="max-width:1160px;margin:0 auto;width:100%;display:flex;flex-direction:column;gap:64px">
 
-      * {
-        box-sizing: border-box;
-      }
+      <section style="display:flex;flex-direction:column;align-items:center;gap:20px;text-align:center">
+        <div style="width:88px;height:1px;background:#d19a4e"></div>
+        <h1 style="margin:0;max-width:22ch;font-family:Spectral,Georgia,serif;font-weight:300;font-size:clamp(34px,6vw,54px);line-height:1.14;letter-spacing:-0.042em;text-wrap:pretty">Equipping leaders to build healthy ministries.</h1>
+        <div style="width:88px;height:1px;background:#d19a4e"></div>
+        <p style="margin:0;max-width:60ch;font-size:15.5px;line-height:1.8;color:#3d4644">I.D. Ministries is a registered Canadian charity. Our mission is to equip leaders to build healthy ministries intergenerationally — at home in Canada and in the developing world.</p>
+        <a href="about.html" style="margin-top:8px;padding:12px 22px;border:1px solid #2f4f4a;border-radius:4px;font-size:11.5px;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:#2f4f4a">Read our mission →</a>
+      </section>
 
-      body {
-        margin: 0;
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        font-family: var(--sans);
-        color: var(--green-dark);
-        background: var(--paper);
-      }
-
-      .wrap {
-        max-width: 1160px;
-        margin: 0 auto;
-        width: 100%;
-      }
-
-      /* — header — */
-      header {
-        padding: 40px var(--gutter) 0;
-      }
-      header img {
-        display: block;
-        margin: 0 auto;
-        width: 200px;
-        height: 49px;
-      }
-
-      /* — intro — */
-      main {
-        flex: 1;
-        display: flex;
-        align-items: center;
-        padding: 56px var(--gutter) 40px;
-      }
-      main .wrap {
-        display: flex;
-        flex-direction: column;
-        gap: 46px;
-      }
-
-      .intro {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        text-align: center;
-      }
-      .intro h1 {
-        margin: 0;
-        max-width: 22ch;
-        font-family: var(--serif);
-        font-weight: 300;
-        font-size: clamp(34px, 6vw, 54px);
-        line-height: 1.14;
-        letter-spacing: -0.042em;
-        text-wrap: pretty;
-      }
-      .intro p {
-        margin: 0;
-        max-width: 60ch;
-        font-size: 15.5px;
-        line-height: 1.8;
-        color: var(--ink);
-      }
-      .rule {
-        width: 88px;
-        height: 1px;
-        background: var(--gold);
-      }
-
-      /* — cards — */
-      .cards {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 32px;
-      }
-      .card {
-        display: flex;
-        flex-direction: column;
-        border: 1px solid var(--line);
-        border-radius: 4px;
-        overflow: hidden;
-        background: var(--paper);
-      }
-      .card-media {
-        padding: 12px;
-        background: #dfe3de;
-      }
-      .card-body {
-        display: flex;
-        flex-direction: column;
-        gap: 14px;
-        padding: 30px 30px 32px;
-      }
-      .card-kicker {
-        font-size: 11px;
-        font-weight: 500;
-        letter-spacing: 0.18em;
-        text-transform: uppercase;
-        color: var(--muted);
-      }
-      .card h2 {
-        margin: 0;
-        font-family: var(--serif);
-        font-weight: 400;
-        font-size: 32px;
-        line-height: 1.16;
-      }
-      .card p {
-        margin: 0;
-        font-size: 14.5px;
-        line-height: 1.8;
-        color: var(--ink);
-      }
-      .card-footer {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 20px;
-        margin-top: 8px;
-        padding-top: 20px;
-        border-top: 1px solid var(--line);
-        font-size: 12.5px;
-        color: var(--muted);
-      }
-      .card-action {
-        padding: 12px 22px;
-        border: 1px solid var(--line);
-        border-radius: 4px;
-        font-size: 11.5px;
-        font-weight: 500;
-        letter-spacing: 0.12em;
-        text-transform: uppercase;
-        color: var(--muted);
-      }
-
-      /* the live site: green trim, photo, solid button */
-      .card-live {
-        border-color: var(--green);
-        text-decoration: none;
-        color: inherit;
-      }
-      .card-live:hover {
-        box-shadow: 0 2px 14px rgba(28, 39, 37, 0.09);
-      }
-      .card-live .card-media {
-        background: var(--green);
-      }
-      .card-live .card-kicker {
-        color: var(--gold);
-      }
-      .card-live h2 {
-        color: var(--green);
-      }
-      .card-live .card-action {
-        border-color: var(--green);
-        color: var(--green);
-      }
-
-      .card-media img {
-        display: block;
-        width: 100%;
-        height: 232px;
-        object-fit: cover;
-        border-radius: 2px;
-      }
-
-      /* the placeholder site: dashed button, year plate instead of a photo */
-      .card-soon .card-action {
-        border-style: dashed;
-      }
-      .card-plate {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 232px;
-        border: 1px solid var(--line);
-        border-radius: 2px;
-        background: var(--paper);
-        font-family: var(--serif);
-        font-weight: 200;
-        font-size: 62px;
-        line-height: 1;
-        color: var(--line);
-        font-feature-settings: "tnum";
-      }
-
-      /* — footer — */
-      footer {
-        padding: 26px var(--gutter) 34px;
-        border-top: 1px solid var(--line);
-        font-size: 12px;
-        color: var(--muted);
-      }
-      footer .wrap {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-        gap: 14px 24px;
-      }
-      footer nav {
-        display: flex;
-        gap: 24px;
-      }
-      footer a {
-        color: var(--muted);
-        text-decoration: none;
-      }
-      footer a:hover {
-        color: var(--green);
-      }
-    </style>
-  </head>
-
-  <body>
-    <header>
-      <img
-        src="images/logo.png"
-        alt="I.D. Ministries — Identity &amp; Destiny"
-        width="200"
-        height="49"
-      />
-    </header>
-
-    <main>
-      <div class="wrap">
-        <div class="intro">
-          <div class="rule"></div>
-          <h1>One family of ministries, two places to begin.</h1>
-          <div class="rule"></div>
-          <p>
-            I.D. Ministries works in the developing world and at home in
-            Canada.<br />Choose the door that brought you here.
-          </p>
+      <section style="display:flex;flex-direction:column;gap:28px">
+        <div style="display:flex;flex-direction:column;gap:10px;align-items:center;text-align:center">
+          <span style="font-size:11px;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;color:#6a716e">Our programs</span>
+          <p style="margin:0;max-width:56ch;font-size:15px;line-height:1.8;color:#3d4644">Two program areas carry the mission forward. One family of ministries, two places to begin.</p>
         </div>
 
-        <div class="cards">
-          <a
-            class="card card-live"
-            href="https://loveandlight.global"
-            target="_blank"
-            rel="noopener"
-          >
-            <div class="card-media">
-              <img
-                src="images/love-and-light.avif"
-                alt="Love &amp; Light — field work in Bangladesh"
-                width="2251"
-                height="1600"
-              />
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:32px">
+          <a href="ministries.html" style="display:flex;flex-direction:column;border:1px solid #2f4f4a;border-radius:4px;overflow:hidden;background:#f5f4f0;color:inherit" style-hover="box-shadow:0 2px 14px rgba(28,39,37,0.09)">
+            <div style="padding:12px;background:#2f4f4a">
+              <img src="images/love-and-light.avif" alt="Love &amp; Light — field work in South Asia" style="display:block;width:100%;height:232px;object-fit:cover;border-radius:2px">
             </div>
-            <div class="card-body">
-              <span class="card-kicker">Humanitarian · Bangladesh</span>
-              <h2>Love &amp; Light</h2>
-              <p>
-                Clean water, schooling and small-business seed for families in
-                the world's most densely populated country — where nearly fifty
-                million people live in extreme poverty.
-              </p>
-              <div class="card-footer">
+            <div style="display:flex;flex-direction:column;gap:14px;padding:30px 30px 32px">
+              <span style="font-size:11px;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;color:#d19a4e">Humanitarian · South Asia</span>
+              <h2 style="margin:0;font-family:Spectral,Georgia,serif;font-weight:400;font-size:32px;line-height:1.16;color:#2f4f4a">Love &amp; Light</h2>
+              <p style="margin:0;font-size:14.5px;line-height:1.8;color:#3d4644">Clean water, schooling, healthcare and vocational training for families in refugee camps and urban slums across South Asia — delivered through proven local workers.</p>
+              <div style="display:flex;align-items:center;justify-content:space-between;gap:20px;margin-top:8px;padding-top:20px;border-top:1px solid #cfd3d1;font-size:12.5px;color:#6a716e">
                 <span>loveandlight.global</span>
-                <span class="card-action">Enter site →</span>
+                <span style="padding:12px 22px;border:1px solid #2f4f4a;border-radius:4px;font-size:11.5px;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:#2f4f4a">Learn more →</span>
               </div>
             </div>
           </a>
 
-          <div class="card card-soon">
-            <div class="card-media">
-              <img src="images/terry-bone.jpg" alt="Terry Bone" />
+          <a href="ministries.html" style="display:flex;flex-direction:column;border:1px solid #cfd3d1;border-radius:4px;overflow:hidden;background:#f5f4f0;color:inherit" style-hover="box-shadow:0 2px 14px rgba(28,39,37,0.09)">
+            <div style="padding:12px;background:#dfe3de">
+              <img src="images/terry-bone.jpg" alt="Terry Bone" style="display:block;width:100%;height:232px;object-fit:cover;border-radius:2px">
             </div>
-            <div class="card-body">
-              <span class="card-kicker">Ministry · Canada</span>
-              <h2>Terry Bone</h2>
-              <p>
-                Teaching, preaching and ministry across Canada. The new site is
-                being built — check back soon.
-              </p>
-              <div class="card-footer">
+            <div style="display:flex;flex-direction:column;gap:14px;padding:30px 30px 32px">
+              <span style="font-size:11px;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;color:#6a716e">Leadership development · Canada</span>
+              <h2 style="margin:0;font-family:Spectral,Georgia,serif;font-weight:400;font-size:32px;line-height:1.16">Terry Bone</h2>
+              <p style="margin:0;font-size:14.5px;line-height:1.8;color:#3d4644">Teaching, preaching and leadership training with churches across Canada — coaching pastors and boards toward ministries that stay healthy across generations.</p>
+              <div style="display:flex;align-items:center;justify-content:space-between;gap:20px;margin-top:8px;padding-top:20px;border-top:1px solid #cfd3d1;font-size:12.5px;color:#6a716e">
                 <span>terrybone.global</span>
-                <span class="card-action">Coming soon</span>
+                <span style="padding:12px 22px;border:1px solid #cfd3d1;border-radius:4px;font-size:11.5px;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:#6a716e">Learn more →</span>
               </div>
             </div>
-          </div>
+          </a>
         </div>
-      </div>
-    </main>
+      </section>
 
-    <footer>
-      <div class="wrap">
-        <span
-          >© 2026 Identity and Destiny Ministries · Registered Canadian
-          charity</span
-        >
-        <nav>
-          <a href="https://loveandlight.global" target="_blank" rel="noopener"
-            >Give Today</a
-          >
-        </nav>
+    </div>
+  </main>
+
+  <footer style="padding:34px clamp(20px,5vw,48px) 40px;border-top:1px solid #cfd3d1;font-size:12px;line-height:1.9;color:#6a716e">
+    <div style="max-width:1160px;margin:0 auto;width:100%;display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:24px 40px">
+      <div style="display:flex;flex-direction:column">
+        <span style="color:#3d4644;font-weight:500">I.D. Ministries</span>
+        <span>66 Sumac Court, Grimsby, ON L3M 5M6, Canada</span>
+        <span>Registered Canadian charity · Charity Registration No. 897408605 RR0001</span>
+        <span><a href="mailto:info@idministries.ca" style="color:#6a716e">info@idministries.ca</a></span>
       </div>
-    </footer>
-  </body>
+      <nav style="display:flex;flex-wrap:wrap;gap:24px">
+        <a href="about.html" style="color:#6a716e">About</a>
+        <a href="ministries.html" style="color:#6a716e">Programs</a>
+        <a href="books.html" style="color:#6a716e">Books</a>
+        <a href="give.html" style="color:#6a716e">Give</a>
+        <a href="contact.html" style="color:#6a716e">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+</div>
+</body>
 </html>
